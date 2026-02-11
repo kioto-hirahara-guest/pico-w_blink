@@ -8,6 +8,13 @@ Raspberry Pi Pico WのLED点滅をRustで実装
 mkdir lib
 cd lib
 git clone https://github.com/embassy-rs/embassy.git
+cd ..
+```
+
+elf2uf2-rsコマンドをインストールする。
+
+```
+cargo install elf2uf2-rs
 ```
 
 ビルド、インストールは以下のコマンドを実行する。
