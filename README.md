@@ -11,10 +11,10 @@ git clone https://github.com/embassy-rs/embassy.git
 cd ..
 ```
 
-elf2uf2-rsコマンドをインストールする。
+probe-rsコマンドをインストールする。
 
 ```
-cargo install elf2uf2-rs
+cargo install probe-rs-tools
 ```
 
 ビルド、インストールは以下のコマンドを実行する。
