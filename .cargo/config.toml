@@ -2,6 +2,7 @@
 # runner = "elf2uf2-rs -d"  # USB書き込み／リセット
 # runner = "probe-rs download --chip RP2040"  # デバッグプローブで書き込みのみ
 runner = ".\\probe_flash.bat"  # デバッグプローブで書き込み／リセット
+# runner = "./probe_flash.sh"  # デバッグプローブで書き込み／リセット
 
 [build]
 target = "thumbv6m-none-eabi"        # Cortex-M0 and Cortex-M0+
